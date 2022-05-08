@@ -1,0 +1,107 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    box-sizing: border-box;
+    border: black solid 1px;
+}
+
+#header {
+    display: flex;
+    position: absolute;
+    width: 1404px;
+    height: 120px;
+    left: 18px;
+    top: 14px;
+}
+
+.header-text {
+    box-sizing: border-box;
+    position: absolute;
+    width: 315px;
+    height: 74px;
+    left: 49px;
+    top: 21px;
+    background: #778899;
+    border: 1px solid #000000;  
+}
+
+h1 {
+    position: absolute;
+    width: 290px;
+    height: 40px;
+    left: 13px;
+    top: -5px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    width: 534px;
+    height: 74px;
+    left: 858px;
+    top: 8px;
+    padding: 18px;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    position: absolute;
+    width: 1404px;
+    height: 984px;
+    left: 18px;
+}
+
+.main-content-info {
+    position: absolute;
+    width: 71%;
+    display: inline-block;
+    margin-left: 20px;
+    top: 14%;
+    left: 27%;
+}
+
+#about-me-text {
+    position: absolute;
+    position: absolute;
+    width: 98%;
+    display: flex;
+    top: 0%;
+    left: 2%;
+}
+aside {
+    position: absolute;
+    width: 368px;
+    height: 835px;
+    left: 18px;
+    top: 137px;
+}
+
+aside h2 {
+    position: absolute;
+
+}
+
+#about-me-aside {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 76.24%;
+}
+
+#work-aside {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 26.12%;
+    bottom: 14%;
+}
+
+#contact-me-aside {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 88.35%;
+    bottom: 0%;
+}
