@@ -1,107 +1,145 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
-    box-sizing: border-box;
-    border: black solid 1px;
 }
 
-#header {
-    display: flex;
-    position: absolute;
-    width: 1404px;
-    height: 120px;
-    left: 18px;
-    top: 14px;
+body {
+    position:relative;
 }
 
-.header-text {
-    box-sizing: border-box;
-    position: absolute;
-    width: 315px;
-    height: 74px;
-    left: 49px;
-    top: 21px;
-    background: #778899;
-    border: 1px solid #000000;  
+.header {
+    background-image: url("https://www.watermeetsmoney.com/wp-content/uploads/2017/11/Header-background-2.png");
 }
 
-h1 {
-    position: absolute;
-    width: 290px;
-    height: 40px;
-    left: 13px;
-    top: -5px;
+.header h1 {
+    font-size: 48px;
+    display: inline-block;
+    color: white;
 }
 
-nav ul {
-    display: flex;
+nav {
+    padding-top: 24px;
+    margin-right: 13px;
+    float: right;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    border-bottom: 3px #D3D3D3 solid;
+    color:#D3D3D3;
+    padding: 5px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav ul li {
     list-style-type: none;
-    position: absolute;
-    width: 534px;
-    height: 74px;
-    left: 858px;
-    top: 8px;
-    padding: 18px;
-    justify-content: space-around;
+    display: inline-flex;
 }
 
 main {
+    height: 250vh;
     display: flex;
-    position: absolute;
-    width: 1404px;
-    height: 984px;
-    left: 18px;
+    position: relative;
+    margin: 0;
 }
 
-.main-content-info {
+.main-content {
+    background-color: lemonchiffon;
+    height: 100%;
     position: absolute;
-    width: 71%;
-    display: inline-block;
-    margin-left: 20px;
-    top: 14%;
-    left: 27%;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
 }
 
+.me-box {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    height: 358px;
+    background-color:darkgrey;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+img {
+    position: absolute;
+    width: 270px;
+    height: 250px;
+    left: 25%;
+    top: 13%;
+    border: solid 2px black;
+    border-radius: 10%;
+}
 #about-me-text {
     position: absolute;
-    position: absolute;
-    width: 98%;
-    display: flex;
-    top: 0%;
-    left: 2%;
-}
-aside {
-    position: absolute;
-    width: 368px;
-    height: 835px;
-    left: 18px;
-    top: 137px;
+    width: 50%;
+    right: 3px;
+    border: solid 2px black;
 }
 
-aside h2 {
+.work-box {
+    width: 100%;
     position: absolute;
+    top: 21%;
+    height: 1296px;
+    background-color: #D3D3D3;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+#large-box {
+    position: absolute;
+    border: solid 2px blue;
+    width: 90%;
+    left: 75px;
+    top: 54px;
+    height: 500px;
+}
+
+.small-boxes * {
+    box-sizing: border-box;
+    border: solid 2px red;
+    width: 300px;
+}
+.small-boxes {
+    position: absolute;
+    width: 90%;
+    top: 46%;
+    height: 600px;
+    left: 75px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.contact-box {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+    background-color:darkgrey;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: inline-flex;
 
 }
 
-#about-me-aside {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 76.24%;
+.contact-info-text ul li {
+    list-style-type: none;
+    margin: 10px;
 }
 
-#work-aside {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 26.12%;
-    bottom: 14%;
-}
-
-#contact-me-aside {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 88.35%;
-    bottom: 0%;
+#main-headers {
+    font-size: 23px;
+    margin-left: 10px;
+    margin-top: 7px;
 }

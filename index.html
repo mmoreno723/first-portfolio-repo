@@ -7,36 +7,51 @@
     </head>
 
     <body>
-        <header id="header">
-            <div class="header-text">
-                <h1>Header</h1>
-            </div>
+        <header class="header">
+            <h1>Portfolio</h1>
             <nav>
                 <ul>
-                    <li>Link 1</li>
-                    <li>Link 2</li>
-                    <li>Link 3</li>
-                    <li>Link 4</li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact-info">Contact Info</a></li>
+                    <li><a href="#">Resume</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="main-content-info">
-                <article id="about-me-text">About me box</article>
-                <article id="applications-text">Applications box</article>
-                <article id="contact-info-text">Contact Info box</article>
+            <section class="main-content">
+                <div class="me-box" id="about-me">
+                    <img src="MichaelMorenoPortrait.JPG" alt="my portrait">
+                    <header id="main-headers">About Me</header>
+                    <p id="about-me-text">This will be text</p>
+                </div>    
+                
+                <section class="work-box" id="work">
+                    <header id="main-headers">Work</header>
+                    <section>
+                        <div id="large-box">Large box</div>
+                        <section class="small-boxes">
+                            <div>Small box 1</div>
+                            <div>Small box 2</div>
+                            <div>Small box 3</div>
+                        </section>
+                    </section>
+                </section>
+                
+                <div class="contact-box" id="contact-info">
+                    <header id="main-headers">Contact Information</header>
+                    <ul>
+                        <li>661-993-3560</li>
+                        <li>email</li>
+                        <li>github</li>
+                    </ul>
+                    <p>This will be my contact info</p>
+                </div>
             </section>
-            <aside class="sidebar-info">
-                <div id="about-me-aside">
-                    <h2>About Me</h2>
-                </div>
-                <div id="work-aside">
-                    <h2>Work</h2>
-                </div>
-                <div id="contact-me-aside">
-                    <h3>Contact Me</h3>
-                </div>
-            </aside>
+
+            <section>
+
+            </section>
 
         </main>
     </body>
