@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="style.css">
-        <title>Portfolio</title>
+        <title>Michael Moreno Portfolio</title>
     </head>
 
     <body>
         <header class="header">
-            <h1>Portfolio</h1>
+            <h1>Michael Moreno</h1>
             <nav>
                 <ul>
                     <li><a href="#about-me">About Me</a></li>
@@ -19,40 +19,40 @@
             </nav>
         </header>
         <main>
-            <section class="main-content">
-                <div class="me-box" id="about-me">
-                    <img src="MichaelMorenoPortrait.JPG" alt="my portrait">
+            <div class="boxes">
+                <section class="card" id="about-me">
                     <header id="main-headers">About Me</header>
-                    <p id="about-me-text">This will be text</p>
-                </div>    
-                
-                <section class="work-box" id="work">
-                    <header id="main-headers">Work</header>
-                    <section>
-                        <div id="large-box">Large box</div>
-                        <section class="small-boxes">
-                            <div>Small box 1</div>
-                            <div>Small box 2</div>
-                            <div>Small box 3</div>
-                        </section>
-                    </section>
+                    <img src="MichaelMorenoPortrait.JPG">
+                    <p id="about-me-text">I am originally from Los Angeles, California, but moved to New York City in 2017. I earned a Bachelor's degree from Fordham University in 2021. I enjoy traveling, playing soccer, and spending time outside.</p>
                 </section>
-                
-                <div class="contact-box" id="contact-info">
+                <section class="card" id="work">
+                    <header id="main-headers">Work</header>
+                    <div class="work-boxes">
+                        <section id="large-box">
+                            <h2><a href="file:///Users/michaelmoreno/Desktop/class-activity-repos/mini-project-1/index.html" target="_blank">HTML</a></h2>
+                        </section>
+                        <div class="small-boxes">
+                            <section class="small-box-1">
+                                <h2>CSS</h2>
+                            </section>
+                            <section class="small-box-2">
+                                <h2>JavaScript</h2>
+                            </section>
+                            <section class="small-box-3">
+                                <h2>APIs</h2>
+                            </section>
+                        </div>
+                    </div>  
+                </section>
+                <div class="card" id="contact-info">
                     <header id="main-headers">Contact Information</header>
                     <ul>
                         <li>661-993-3560</li>
-                        <li>email</li>
-                        <li>github</li>
+                        <li><a href="mailto:morenomichael723@gmail.com">morenomichael723@gmail.com</a></li>
+                        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
                     </ul>
-                    <p>This will be my contact info</p>
                 </div>
-            </section>
-
-            <section>
-
-            </section>
-
+            </div>
         </main>
     </body>
 </html>
